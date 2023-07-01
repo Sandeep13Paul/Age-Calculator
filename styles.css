@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: grey; */
+}
+.age-cal {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    padding: 40px;
+    /* width: 100vw; */
+    height: 100vh;
+    background-color: rgba(129, 129, 129, 0.63);
+    /* background-color: aqua; */
+}
+fieldset {
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    gap: 28px;
+    padding: 20px;
+}
+.text {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#result {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-bottom: 40px; */
+    /* padding-bottom: 20px; */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    gap: 60px;
+    justify-content: center;
+    background-color: rgb(252, 248, 241);
+    height: 50vh;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 31px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px 7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px 7px rgba(0,0,0,0.75);
+    align-items: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid transparent;
+    /* border-radius: 10px; */
+    background-color: rgb(184, 184, 184);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* input:hover {
+    cursor: pointer;
+    color: white;
+} */
+
+.age-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+input[type=button] {
+    width: 40%;
+    padding: 10px 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    background-color: rgb(184, 184, 184);
+    transition: 0.2s ease;
+}
+input[type=button]:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+   
+}
+
+/*@media(max-width : 680px) {
+    .text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    input {*/
+        /*  
+        width: 100%;
+        height: 40px;
+        border: 2px solid transparent; */
+        /* border-radius: 10px; */
+       /* background-color: rgb(184, 184, 184);
+        color: black;
+        font-weight: bold;
+        font-size: 10px;
+        /* margin-top: 2px; */
+    /*}
+    .age-container {
+        margin: 0;
+    }
+    fieldset {
+        width: 80vw;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+        gap: 8px;
+        padding: 8px;
+    }
+    label {
+        font-size: 8px;
+        font-weight: 400;
+    }
+    #result {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        /* margin-bottom: 40px; */
+        /* padding-bottom: 20px; */
+    /*}
+}*/
+@media(max-width : 1220px) {
+    .text {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    input {
+        background-color: rgb(184, 184, 184);
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    label {
+        font-size: 25px;
+        font-weight: 25px;
+    }
+    #result {
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    fieldset {
+        width: 80vw;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+        gap: 25px;
+        padding: 15px;
+    }
+}
+@media(max-width : 756px) {
+    .text {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    #result {
+        font-size: 23px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    label {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    input {
+        /*  
+        width: 100%;
+        height: 40px;
+        border: 2px solid transparent; */
+        /* border-radius: 10px; */
+        background-color: rgb(184, 184, 184);
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+        /* margin-top: 3px; */
+    }
+    input[type=button] {
+        font-size: 16px;
+    }
+}
