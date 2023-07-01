@@ -201,5 +201,6 @@ input[type=button]:hover {
     }
     input[type=button] {
         font-size: 16px;
+        width :50px;
     }
 }
